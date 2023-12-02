@@ -4,14 +4,14 @@ import AllRoutes from './routes/Routes';
 
 const App = () => {
   return (
-    <div>
+    <>
       {/* <nav>
         <ul>
           <li><Link to="/">Home</Link></li>
         </ul>
       </nav> */}
       <AllRoutes />
-    </div>
+    </>
   );
 };
 

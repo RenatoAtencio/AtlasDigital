@@ -1,0 +1,64 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }  
+
+.home_page {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home_header {
+    flex: 3;
+    display: flex;
+}
+
+.header_logo {
+    flex: 1;
+}
+
+.header_navbar {
+    flex: 4;
+}
+
+.home_main{ 
+    flex: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_center_column {
+    height: 60%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_title {
+    flex:4;
+}
+
+.main_searchbar {
+    flex: 10;
+}
+
+.main_species_amount {
+    flex: 4;
+}
+
+.home_footer {
+    flex: 3;
+    display: flex;
+}
+
+.footer_user_section {
+    flex: 2;
+}
+
+.footer_information_slider{
+    flex: 3;
+}
