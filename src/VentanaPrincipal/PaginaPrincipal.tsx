@@ -9,6 +9,7 @@ import '../styles/PaginaPrincipal.css'; // Importa tu archivo de estilos CSS
 
 const PaginaPrincipal: React.FC = () => {
   return (
+    
     <div className="pagina-principal-container">
 
       <Header/>

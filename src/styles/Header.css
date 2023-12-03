@@ -1,25 +1,20 @@
 /* Header.css */
 .header {
-  width: 100%;
-  background-color: #007bff; /* Ajusta el color de fondo según tus preferencias */
-  color: #fff; /* Ajusta el color del texto según tus preferencias */
-  padding: 10px; /* Ajusta el espaciado interno según tus preferencias */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  width: 100%;
+  position: fixed; /* Agrega posición fija para mantener el encabezado visible al hacer scroll */
+  top: 0; /* Coloca el encabezado en la parte superior */
+  left: 0; /* Asegura que el encabezado esté a la izquierda */
+  z-index: 1000; /* Ajusta según sea necesario para estar encima de otros elementos */
 }
 
-.left-section {
-  display: flex;
-  align-items: center;
-}
-
-.right-section {
-  display: flex;
-  gap: 20px; /* Ajusta el espacio entre enlaces según tus preferencias */
-}
-
-.right-section a {
-  color: #fff; /* Ajusta el color de los enlaces según tus preferencias */
+.header a {
+  color: white;
   text-decoration: none;
+  margin: 0 15px;
 }
