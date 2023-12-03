@@ -9,20 +9,19 @@ import '../styles/PaginaPrincipal.css'; // Importa tu archivo de estilos CSS
 
 const PaginaPrincipal: React.FC = () => {
   return (
-    
     <div className="pagina-principal-container">
+      <Header />
 
-      <Header/>
-
-      {/* Sección de la barra de búsqueda */}
-      <SearchBar />
+      {/* Contenedor de la barra de búsqueda */}
+      <div className="search-bar-container">
+        <SearchBar />
+      </div>
 
       {/* Sección de las imágenes */}
       <div className="imagen-container">
-        {/* Otra imagen con un link */}
-        <div className="otra-imagen">
+        <div className="cuadrado">
           <a href="/ruta-del-link">
-            <img src="/ruta-de-otra-imagen.jpg" alt="Otra Imagen" />
+            <img src="/ruta-de-otra-imagen.jpg" alt="Base de Datos" />
           </a>
         </div>
 
