@@ -1,0 +1,19 @@
+/* PaginaPrincipal.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  #root {
+    height: 100%;
+  }
+  
+  .pagina-principal-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Agrega estilos adicionales según sea necesario */
+  

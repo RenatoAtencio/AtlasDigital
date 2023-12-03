@@ -1,0 +1,25 @@
+/* En tu archivo de estilos (SeccionInformacion.css) */
+.seccion-informacion {
+  display: flex;
+  flex-direction: flex;
+}
+
+.cuadrado {
+  margin-bottom: 10px; /* Ajusta según sea necesario */
+  padding: 10px; /* Ajusta según sea necesario */
+  border: 1px solid #ccc; /* Ajusta según sea necesario */
+}
+
+/* Estilo del contenido de las publicaciones, solicitudes e informes */
+.publicacion,
+.solicitud,
+.informe {
+  margin-bottom: 5px; /* Ajusta según sea necesario */
+}
+
+/* Asegura que el fondo se ajuste a los cuadrados */
+.seccion-informacion::after {
+  content: '';
+  flex-grow: 1;
+  background-color: #f0f0f0; /* Color de fondo del cuadrado de fondo */
+}

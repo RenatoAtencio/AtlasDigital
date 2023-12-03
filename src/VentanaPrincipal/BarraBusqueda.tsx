@@ -1,6 +1,6 @@
 // BarraBusqueda.tsx
 import React from 'react';
-import './styles/BarraBusqueda.css'; // Importa tus estilos CSS
+import '../styles/BarraBusqueda.css'; // Importa tus estilos CSS
 
 const BarraBusqueda: React.FC = () => {
   return (

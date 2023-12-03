@@ -1,24 +1,25 @@
 /* Header.css */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #121233; /* Color de fondo del encabezado */
-    color: #ffffff; /* Color del texto del encabezado */
-  }
-  
-  .left-section {
-    /* Estilos específicos para la sección izquierda (título) */
-  }
-  
-  .right-section {
-    /* Estilos específicos para la sección derecha (enlaces) */
-  }
-  
-  .right-section a {
-    margin-left: 15px; /* Espaciado entre los enlaces */
-    color: #fff; /* Color del texto de los enlaces */
-    text-decoration: none; /* Quita la subrayado de los enlaces */
-  }
-  
+  width: 100%;
+  background-color: #007bff; /* Ajusta el color de fondo según tus preferencias */
+  color: #fff; /* Ajusta el color del texto según tus preferencias */
+  padding: 10px; /* Ajusta el espaciado interno según tus preferencias */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.right-section {
+  display: flex;
+  gap: 20px; /* Ajusta el espacio entre enlaces según tus preferencias */
+}
+
+.right-section a {
+  color: #fff; /* Ajusta el color de los enlaces según tus preferencias */
+  text-decoration: none;
+}

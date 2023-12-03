@@ -1,7 +1,7 @@
 // IngresoInvestigadores.tsx
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './styles/IngresoInvestigadores.css';
+import '../styles/IngresoInvestigadores.css';
 
 const IngresoInvestigadores: React.FC = () => {
   const navigate = useNavigate();
@@ -13,7 +13,7 @@ const IngresoInvestigadores: React.FC = () => {
 
   return (
     <div className="square-box" onClick={handleImageClick}>
-      <img src='../data/planta.png'alt="Imagen" />
+      <img src='../data/planta.png' alt="Ingreso Sesion" />
     </div>
   );
 };

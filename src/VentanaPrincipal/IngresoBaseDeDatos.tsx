@@ -1,0 +1,1 @@
+//aqui va el otro cuadrado de imagen en la pantalla principal
