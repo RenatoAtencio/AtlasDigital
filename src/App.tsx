@@ -1,17 +1,15 @@
+// App.tsx
 import React from 'react';
-import { Link } from 'react-router-dom';
-import AllRoutes from './routes/Routes';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import PaginaPrincipal from './PaginaPrincipal';
+import Login from './Login';
 
-const App = () => {
+const App: React.FC = () => {
   return (
-    <>
-      {/* <nav>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-        </ul>
-      </nav> */}
-      <AllRoutes />
-    </>
+      <Routes>
+        <Route path="/" element={<PaginaPrincipal />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
   );
 };
 

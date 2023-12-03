@@ -1,0 +1,24 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #121233; /* Color de fondo del encabezado */
+    color: #ffffff; /* Color del texto del encabezado */
+  }
+  
+  .left-section {
+    /* Estilos específicos para la sección izquierda (título) */
+  }
+  
+  .right-section {
+    /* Estilos específicos para la sección derecha (enlaces) */
+  }
+  
+  .right-section a {
+    margin-left: 15px; /* Espaciado entre los enlaces */
+    color: #fff; /* Color del texto de los enlaces */
+    text-decoration: none; /* Quita la subrayado de los enlaces */
+  }
+  
