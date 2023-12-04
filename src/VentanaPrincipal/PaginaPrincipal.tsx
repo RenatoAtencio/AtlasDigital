@@ -14,7 +14,7 @@ const PaginaPrincipal: React.FC = () => {
 
       {/* Contenedor de la barra de búsqueda */}
       <div className="search-bar-container">
-        <SearchBar />
+        <SearchBar label='Buscador de Biodiversidad Chilena'/>
       </div>
 
       {/* Sección de las imágenes */}

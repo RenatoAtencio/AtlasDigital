@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../styles/Login.css'; // Importa tu archivo de estilos CSS
+import Header from '../Header';
 
 const Login: React.FC = () => {
   const navigate = useNavigate();
@@ -18,6 +19,7 @@ const Login: React.FC = () => {
 
   return (
     <div className="login-wrapper">
+      <Header/>
       <div className="login-container">
         <h2>Iniciar Sesión</h2>
         <form>

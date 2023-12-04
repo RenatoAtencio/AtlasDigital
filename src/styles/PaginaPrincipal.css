@@ -1,10 +1,16 @@
-body, html {
+body {
   margin: 0;
   padding: 0;
   height: 100%;
+  background-image: url('https://storage.googleapis.com/chile-travel-newsite-static-content/2021/04/huilo-huilo.jpg'); /* Reemplaza con la ruta correcta de tu imagen */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la pantalla */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
 }
 
+
 #root {
+  display: flex;
   height: 100vh;
 }
 
@@ -15,24 +21,22 @@ body, html {
   align-items: center; /* Centra todo en el eje horizontal */
 }
 
-.search-bar-container {
-  padding: 100px; /* Ajusta el padding según sea necesario */
-  text-align: center;
-}
-
 .imagen-container {
   flex: 1;
   display: flex;
   flex-direction: row; /* Cambiado de columna a fila */
   justify-content: center; /* Centra horizontalmente los cuadrados */
   align-items: flex-end; /* Alinea los cuadrados un poco más arriba del contenedor */
-  margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+  margin-top: 100px; /* Ajusta el margen superior según sea necesario */
 }
 
 .cuadrado {
   flex: 1;
-  margin: 0 10px; /* Espacio entre los cuadrados */
-  padding: 40px; /* Ajusta el padding según sea necesario */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 50px; /* Espacio entre los cuadrados */
+  padding: 100px; /* Ajusta el padding según sea necesario */
   border-radius: 20px; /* Ajusta el radio del borde según sea necesario */
   cursor: pointer;
 }

@@ -4,17 +4,29 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: #333;
-  color: white;
+  background-color: #096315;
+  color: rgb(255, 255, 255);
   width: 100%;
-  position: fixed; /* Agrega posición fija para mantener el encabezado visible al hacer scroll */
-  top: 0; /* Coloca el encabezado en la parte superior */
-  left: 0; /* Asegura que el encabezado esté a la izquierda */
-  z-index: 1000; /* Ajusta según sea necesario para estar encima de otros elementos */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.header h1 {
+  margin: 0; /* Elimina el margen por defecto del h1 */
 }
 
 .header a {
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   margin: 0 15px;
+  padding: 8px 15px;
+  border-radius: 10px;
+  background-color: rgb(0, 223, 67);
+}
+
+/* Estilos para enlaces al pasar el ratón por encima */
+.header a:hover {
+  background-color: #000000;
 }
