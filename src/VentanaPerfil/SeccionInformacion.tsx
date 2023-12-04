@@ -29,7 +29,6 @@ const SeccionInformacion: React.FC = () => {
         <div className="informe">
           <p>Titulo del Informe 1</p>
         </div>
-        {/* Puedes agregar más informes dentro del mismo cuadrado */}
       </div>
     </div>
   );

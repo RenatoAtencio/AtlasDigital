@@ -1,20 +1,24 @@
-/*CuadradosArriba.tsx*/
+/*CuadradosArriba.css*/
 
 .cuadrados-arriba {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px; /* Espacio superior */
-  }
-  
-  .cuadrado {
-    width: 200px;
-    height: 150px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 0 10px; /* Espacio lateral entre cuadrados */
-    text-align: center;
-  }
-  
-  /* Ajusta estos estilos según tus necesidades */
-  
+  padding: 50px;
+  display: flex;
+  height: 30%;
+  justify-content: center;
+  Background-color: #fffefe00;
+  align-items: flex-start; /* Alinea los cuadrados en la parte superior */
+  margin-top: 25%; /* Ajusta según sea necesario para dar espacio desde la parte superior */
+}
+
+.cuadrado:hover {
+  background-color: #797979; /* Cambia el color de fondo al hacer hover */
+}
+
+.cuadrado h3 {
+  margin-top: 0; /* Elimina el margen superior del h3 */
+  margin-bottom: 10px; /* Ajusta según sea necesario */
+}
+
+.cuadrado p {
+  margin: 0; /* Elimina el margen por defecto del párrafo */
+}

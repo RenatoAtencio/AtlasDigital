@@ -20,13 +20,13 @@ const CuadradosArriba: React.FC = () => {
     <div className="cuadrados-arriba">
       {/* Primer Cuadrado */}
       <div className="cuadrado" onClick={() => handleCuadradoClick('cuadrado1')}>
-        <h3>Datos Cuadrado 1</h3>
+        <h3>Perfil de Investigador</h3>
         <p>Información del Cuadrado 1</p>
       </div>
 
       {/* Segundo Cuadrado */}
       <div className="cuadrado" onClick={() => handleCuadradoClick('cuadrado2')}>
-        <h3>Datos Cuadrado 2</h3>
+        <h3>Cambiar Perfil</h3>
         <p>Información del Cuadrado 2</p>
       </div>
     </div>

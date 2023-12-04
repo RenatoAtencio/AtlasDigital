@@ -1,25 +1,42 @@
-/* En tu archivo de estilos (SeccionInformacion.css) */
+/* SeccionInformacion.css */
+
 .seccion-informacion {
+  background-color: aliceblue;
   display: flex;
-  flex-direction: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .cuadrado {
-  margin-bottom: 10px; /* Ajusta según sea necesario */
-  padding: 10px; /* Ajusta según sea necesario */
-  border: 1px solid #ccc; /* Ajusta según sea necesario */
+  height: 200px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #ccc;
+  padding: 20px; /* Ajusta según sea necesario para el espacio interno */
+  margin: 10px; /* Ajusta según sea necesario para el espacio entre cuadrados */
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cuadrado:hover {
+  background-color: #979393;
 }
 
 /* Estilo del contenido de las publicaciones, solicitudes e informes */
 .publicacion,
 .solicitud,
 .informe {
-  margin-bottom: 5px; /* Ajusta según sea necesario */
+  margin-bottom: 10px; /* Ajusta según sea necesario */
+  height: 10%;
 }
 
-/* Asegura que el fondo se ajuste a los cuadrados */
-.seccion-informacion::after {
-  content: '';
-  flex-grow: 1;
-  background-color: #f0f0f0; /* Color de fondo del cuadrado de fondo */
+.cuadrado .publicacion p {
+}
+
+.cuadrado .solicitud p {
+}
+
+.cuadrado .informe p {
 }

@@ -1,6 +1,7 @@
 // CambiarPerfilUsuario.tsx
 import React, { useState } from 'react';
 import '../styles/CambiarPerfilUsuario.css'
+import Header from '../Header'
 
 const CambiarPerfilUsuario: React.FC = () => {
   const [userData, setUserData] = useState({
@@ -17,6 +18,7 @@ const CambiarPerfilUsuario: React.FC = () => {
 
   return (
     <div className="cambiar-perfil-usuario">
+      <Header/>
       <h2>Cambiar Perfil del Usuario</h2>
 
       <div className="perfil-info">

@@ -13,10 +13,6 @@ const InformacionCuadros: React.FC = () => {
         <h3>Cuadro 2</h3>
         <p>Información del cuadro 2</p>
       </div>
-      <div className="cuadro-informacion">
-        <h3>Cuadro 3</h3>
-        <p>Información del cuadro 3</p>
-      </div>
     </div>
   );
 };
