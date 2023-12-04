@@ -1,17 +1,17 @@
-/* SquareBox.css */
-.square-box {
-    width: 200px;
-    height: 200px;
-    background-color: #f0f0f0; /* Color de fondo del cuadrado, puedes ajustarlo */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-  }
-  
-  .square-box img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain; /* Ajusta cómo se muestra la imagen dentro del cuadrado */
-  }
-  
+/* IngresoInvestigadores.css */
+.cuadrado-ingresoInvestigadores {
+  width: 200px;
+  height: 200px;
+  background-color: #c4c4c4; /* Color de fondo del cuadrado, puedes ajustarlo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cuadrado-ingresoInvestigadores img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Ajusta cómo se muestra la imagen dentro del cuadrado */
+  border-radius: 10px; /* Ajusta el radio del borde según sea necesario */
+}

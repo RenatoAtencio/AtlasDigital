@@ -1,5 +1,6 @@
 // Header.tsx
 import React from 'react';
+import { Link } from 'react-router-dom'; // Importa Link desde react-router-dom
 import './styles/Header.css'; // Importa tus estilos CSS
 
 const Header: React.FC = () => {
@@ -9,9 +10,9 @@ const Header: React.FC = () => {
         <h1>Atlas Digital</h1>
       </div>
       <div className="right-section">
-        <a href="/">Inicio</a>
-        <a href="/galeria">Galería</a>
-        <a href="/contacto">Contacto</a>
+        <Link to="/">Inicio</Link>
+        <Link to="/galeria">Galería</Link>
+        <Link to="/contacto">Contacto</Link>
         {/* Agrega más enlaces según sea necesario */}
       </div>
     </div>

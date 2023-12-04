@@ -8,7 +8,6 @@ body {
   background-repeat: no-repeat; /* Evita la repetición de la imagen */
 }
 
-
 #root {
   display: flex;
   height: 100vh;
@@ -18,30 +17,26 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  align-items: center; /* Centra todo en el eje horizontal */
 }
 
-.imagen-container {
-  flex: 1;
+.imagen-container-principal {
   display: flex;
-  flex-direction: row; /* Cambiado de columna a fila */
-  justify-content: center; /* Centra horizontalmente los cuadrados */
-  align-items: flex-end; /* Alinea los cuadrados un poco más arriba del contenedor */
-  margin-top: 100px; /* Ajusta el margen superior según sea necesario */
-}
-
-.cuadrado {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center; /* Alinea al centro en el eje horizontal */
+  margin-top: 60vh; /* Ajusta la distancia desde la parte superior según sea necesario */
+}
+
+.cuadrado-pagina-principal {
+  background-color: rgb(250, 220, 183);
+  display: flex;
+  justify-content: flex-end;
   margin: 0 50px; /* Espacio entre los cuadrados */
-  padding: 100px; /* Ajusta el padding según sea necesario */
+  padding: 30%; /* Ajusta el padding según sea necesario */
   border-radius: 20px; /* Ajusta el radio del borde según sea necesario */
   cursor: pointer;
 }
 
-.cuadrado img {
+.cuadrado-pagina-principal img {
   width: 100%;
   border-radius: 15px; /* Ajusta el radio del borde según sea necesario */
 }

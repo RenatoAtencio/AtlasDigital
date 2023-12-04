@@ -1,11 +1,11 @@
-/*CuadradosArriba.css*/
+/* CuadradosArriba.css */
 
 .cuadrados-arriba {
   padding: 50px;
   display: flex;
   height: 30%;
   justify-content: center;
-  Background-color: #fffefe00;
+  background-color: #fffefe00;
   align-items: flex-start; /* Alinea los cuadrados en la parte superior */
   margin-top: 25%; /* Ajusta según sea necesario para dar espacio desde la parte superior */
 }
@@ -19,6 +19,18 @@
   margin-bottom: 10px; /* Ajusta según sea necesario */
 }
 
-.cuadrado p {
-  margin: 0; /* Elimina el margen por defecto del párrafo */
+.cuadrado .perfil-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cuadrado .perfil-icon img {
+  width: 50px; /* Ajusta según sea necesario */
+  border-radius: 50%; /* Hace que la imagen sea circular */
+}
+
+.cuadrado .perfil-icon span {
+  margin-top: 10px; /* Espacio entre la imagen y el nombre del usuario */
+  font-size: 14px; /* Ajusta según sea necesario */
 }

@@ -1,13 +1,16 @@
 /* SeccionInformacion.css */
 
 .seccion-informacion {
-  background-color: aliceblue;
+  background-color: rgb(9, 93, 167);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 100%; /* Hace que ocupe todo el ancho de la ventana */
+  box-sizing: border-box; /* Incluye el padding y el border en el ancho total */
 }
 
 .cuadrado {
+  flex: 1;
   height: 200px;
   width: 100%;
   background-color: rgb(255, 255, 255);
@@ -30,13 +33,4 @@
 .informe {
   margin-bottom: 10px; /* Ajusta según sea necesario */
   height: 10%;
-}
-
-.cuadrado .publicacion p {
-}
-
-.cuadrado .solicitud p {
-}
-
-.cuadrado .informe p {
 }
