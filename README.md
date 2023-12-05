@@ -1,24 +1,24 @@
-# New Project
+# Proyecto Atlas Digital
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+- Bienvenido/a al repositorio del proyecto Atlas Digital. Este proyecto es una aplicación web destinada a la exploración y gestión de datos relacionados con la biodiversidad chilena.
 
-## Available Scripts
+## Instalación
 
-### npm start
+- Asegúrate de tener instalados [Node.js](https://nodejs.org/) y [npm](https://www.npmjs.com/) en tu máquina.
 
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
+### Instalación de React y React DOM
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+npm install react react-dom
 
-### npm run build
+### Insturcciones de inicio
 
-Builds a static copy of your site to the `build/` folder.
-Your app is ready to be deployed!
+- git clone https://github.com/tu-usuario/atlas-digital.git
 
-**For the best production performance:** Add a build bundler plugin like [@snowpack/plugin-webpack](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-webpack) or [snowpack-plugin-rollup-bundle](https://github.com/ParamagicDev/snowpack-plugin-rollup-bundle) to your `snowpack.config.mjs` config file.
+- cd atlas-digital
 
-### Q: What about Eject?
+- npm install
 
-No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
+- npm start
+
+
+
