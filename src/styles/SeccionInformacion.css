@@ -5,15 +5,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%; /* Hace que ocupe todo el ancho de la ventana */
   box-sizing: border-box; /* Incluye el padding y el border en el ancho total */
 }
 
-.cuadrado {
+.cuadrado-seccion-informacion {
   flex: 1;
-  height: 200px;
-  width: 100%;
-  background-color: rgb(255, 255, 255);
+  height: 300px;
+  width: 50%;
+  background-color: rgb(129, 129, 129);
   border: 1px solid #ccc;
   padding: 20px; /* Ajusta según sea necesario para el espacio interno */
   margin: 10px; /* Ajusta según sea necesario para el espacio entre cuadrados */
@@ -23,7 +22,7 @@
   transition: background-color 0.3s ease;
 }
 
-.cuadrado:hover {
+.cuadrado-seccion-informacion:hover {
   background-color: #979393;
 }
 

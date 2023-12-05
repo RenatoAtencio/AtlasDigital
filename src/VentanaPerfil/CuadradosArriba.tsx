@@ -1,6 +1,8 @@
 // CuadradosArriba.tsx
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 import '../styles/CuadradosArriba.css'; // Importa tu archivo de estilos CSS
 
 const CuadradosArriba: React.FC = () => {
@@ -19,15 +21,14 @@ const CuadradosArriba: React.FC = () => {
   return (
     <div className="cuadrados-arriba">
       {/* Primer Cuadrado */}
-      <div className="cuadrado" onClick={() => handleCuadradoClick('cuadrado1')}>
+      <div className="cuadrado-perfil-usuario" onClick={() => handleCuadradoClick('cuadrado1')}>
         <h3>Inicio perfil investigador</h3>
       </div>
 
       {/* Segundo Cuadrado */}
-      <div className="cuadrado" onClick={() => handleCuadradoClick('cuadrado2')}>
+      <div className="cuadrado-perfil-usuario" onClick={() => handleCuadradoClick('cuadrado2')}>
         <div className="perfil-icon">
-
-          <span>Nombre de Usuario</span>
+          <FontAwesomeIcon icon={faUser} />
         </div>
       </div>
     </div>
