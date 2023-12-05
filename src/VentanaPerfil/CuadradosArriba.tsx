@@ -26,6 +26,7 @@ const CuadradosArriba: React.FC = () => {
       {/* Segundo Cuadrado */}
       <div className="cuadrado" onClick={() => handleCuadradoClick('cuadrado2')}>
         <div className="perfil-icon">
+
           <span>Nombre de Usuario</span>
         </div>
       </div>
