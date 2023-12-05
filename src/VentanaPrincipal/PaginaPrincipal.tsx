@@ -4,6 +4,8 @@ import { Routes, Route, Link } from 'react-router-dom';
 import Header from '../Header';
 import SearchBar from './BarraBusqueda';
 import Login from '../VentanaLogin/Login';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faToolbox, faUser, faUserCircle } from '@fortawesome/free-solid-svg-icons';
 import '../styles/PaginaPrincipal.css'; // Importa tu archivo de estilos CSS
 
 const PaginaPrincipal: React.FC = () => {
@@ -18,12 +20,12 @@ const PaginaPrincipal: React.FC = () => {
       
       <div className="imagen-container-principal">
         
-        <Link to="/login" className="cuadrado-pagina-principal">
-          <label>Ingreso Sesion</label>
+        <Link to="/login" className="cuadrado-pagina-principal-ingreso-usuarios">
+          <FontAwesomeIcon icon={faUserCircle} />
         </Link>
         
-        <Link to="/ingresodocumentos" className="cuadrado-pagina-principal">
-          <label>Ingreso Documentos</label>
+        <Link to="/ingresodocumentos" className="cuadrado-pagina-principal-ingreso-datos">
+          <FontAwesomeIcon icon={faToolbox} />    
         </Link>
 
       </div>
