@@ -1,7 +1,7 @@
 // CambiarPerfilUsuario.tsx
 import React, { useState } from 'react';
-import '../styles/CambiarPerfilUsuario.css'
 import Header from '../Header'
+import '../../styles/CambiarPerfilUsuario.css'
 
 const CambiarPerfilUsuario: React.FC = () => {
   const [userData, setUserData] = useState({

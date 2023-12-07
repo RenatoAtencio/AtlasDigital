@@ -1,6 +1,6 @@
 // SeccionInformacion.tsx
 import React from 'react';
-import '../styles/SeccionInformacion.css'
+import '../../styles/SeccionInformacion.css'
 
 const SeccionInformacion: React.FC = () => {
   return (

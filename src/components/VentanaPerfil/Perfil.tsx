@@ -1,6 +1,5 @@
 // Perfil.tsx
 import React from 'react';
-import Header from '../Header';
 import PerfilUsuario from './VentanaPerfilUsuario';
 import InformacionCuadros from './InformacionCuadros';
 

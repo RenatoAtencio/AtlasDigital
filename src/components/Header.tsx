@@ -1,7 +1,7 @@
 // Header.tsx
 import React from 'react';
 import { Link } from 'react-router-dom'; // Importa Link desde react-router-dom
-import './styles/Header.css'; // Importa tus estilos CSS
+import '../styles/Header.css'; // Importa tus estilos CSS
 
 const Header: React.FC = () => {
   return (

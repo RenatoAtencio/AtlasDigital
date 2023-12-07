@@ -3,7 +3,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
-import '../styles/CuadradosArriba.css'; // Importa tu archivo de estilos CSS
+import '../../styles/CuadradosArriba.css'; // Importa tu archivo de estilos CSS
 
 const CuadradosArriba: React.FC = () => {
   const navigate = useNavigate();

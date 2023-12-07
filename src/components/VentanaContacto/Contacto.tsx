@@ -1,7 +1,7 @@
-// Componente CuadrosTexto.tsx
+//Contacto.tsx
 import React, { useState } from 'react';
 import Header from '../Header';
-import '../styles/Contacto.css'
+import '../../styles/Contacto.css'
 
 const CuadrosTexto: React.FC = () => {
   const [problema, setProblema] = useState('');
