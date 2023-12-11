@@ -1,7 +1,7 @@
 //Contacto.tsx
 import React, { useState } from 'react';
 import Header from '../Header/Header';
-import '../../styles/Contacto.css'
+import '../../styles/Pagina_Contacto/Contacto.css'
 
 const CuadrosTexto: React.FC = () => {
   const [problema, setProblema] = useState('');
