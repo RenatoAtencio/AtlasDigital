@@ -1,0 +1,137 @@
+body {
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('https://wallpapers.com/images/high/boho-background-6j074s8wh1482llw.webp');
+}
+
+.pagina-principal-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-line {
+  height: 5px;
+  background-color: #294724;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.imagen-container-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60vh;
+}
+
+.botones-inferiores-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.cuadrado-contenedorIS {
+  background-color: #333333;
+  border-radius: 30px;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.cuadrado-contenedorIS:hover {
+  background-color: #2c2c2c;
+  color: #ffffff;
+}
+
+.cuadrado-contenedorIS img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.cuadrado-contenedorIS a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.cuadrado-contenedorID {
+  background-color: #294724;
+  border-radius: 30px;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.cuadrado-contenedorID:hover {
+  background-color: #325732;
+  color: #ffffff;
+}
+
+.cuadrado-contenedorID img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.cuadrado-contenedorID a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.cuadrado-pagina-principal {
+  background-color: rgb(250, 220, 183);
+
+  justify-content: flex-end;
+  margin: 0 50px;
+  padding: 30%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.cuadrado-pagina-principal img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.cuadrado-contenedor-documentos {
+  background-color: #294724;
+  border-radius: 30px;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.cuadrado-contenedor-documentos:hover {
+  background-color: #275c22;
+  color: #ffffff;
+}
+
+.cuadrado-contenedor-documentos img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.cuadrado-contenedor-documentos a {
+  color: #ffffff;
+  text-decoration: none;
+}

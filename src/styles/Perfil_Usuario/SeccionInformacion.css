@@ -1,0 +1,33 @@
+.seccion-informacion {
+  background-color: rgb(9, 93, 167);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%; 
+  box-sizing: border-box; 
+}
+
+.cuadrado {
+  flex: 1;
+  height: 200px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #ccc;
+  padding: 20px; 
+  margin: 10px; 
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cuadrado:hover {
+  background-color: #979393;
+}
+
+.publicacion,
+.solicitud,
+.informe {
+  margin-bottom: 10px;
+  height: 10%;
+}

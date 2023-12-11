@@ -1,0 +1,34 @@
+.cuadrados-arriba {
+  padding: 50px;
+  display: flex;
+  height: 30%;
+  justify-content: center;
+  background-color: #fffefe00;
+  align-items: flex-start; 
+  margin-top: 25px; 
+}
+
+.cuadrado:hover {
+  background-color: #797979; 
+}
+
+.cuadrado h3 {
+  margin-top: 0; 
+  margin-bottom: 10px; 
+}
+
+.cuadrado .perfil-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cuadrado .perfil-icon img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.cuadrado .perfil-icon span {
+  margin-top: 10px; 
+  font-size: 14px;
+}

@@ -1,24 +1,37 @@
-# New Project
+# Proyecto Atlas Digital
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+- Bienvenido/a al repositorio del proyecto Atlas Digital. Este proyecto es una aplicación web destinada a la exploración y gestión de datos relacionados con la biodiversidad chilena.
 
-## Available Scripts
+## Instalación
 
-### npm start
+- Asegúrate de tener instalados [Node.js](https://nodejs.org/) y [npm](https://www.npmjs.com/) en tu máquina.
 
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
+### Instalación de React y React DOM
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+npm install react react-dom
 
-### npm run build
+npm install react-router-dom@latest
 
-Builds a static copy of your site to the `build/` folder.
-Your app is ready to be deployed!
+npm install --save @fortawesome/fontawesome-svg-core
 
-**For the best production performance:** Add a build bundler plugin like [@snowpack/plugin-webpack](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-webpack) or [snowpack-plugin-rollup-bundle](https://github.com/ParamagicDev/snowpack-plugin-rollup-bundle) to your `snowpack.config.mjs` config file.
+npm install --save @fortawesome/free-solid-svg-icons
 
-### Q: What about Eject?
+npm install --save @fortawesome/react-fontawesome
 
-No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
+
+### Insturcciones de inicio
+
+- git clone https://github.com/RenatoAtencio/AtlasDigital.git
+
+- cd atlas-digital
+
+- npm install
+
+- npm start
+
+- Tambien se necesita tener el server corriendo, repo: https://github.com/RenatoAtencio/AtlasDigital_backend.git
+
+### Para crear una copia statica desplegable
+
+- npm run build
+

@@ -1,0 +1,82 @@
+.ejemplo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+  margin: 50px auto 0;
+  overflow: hidden;
+}
+
+.titulo {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2px;
+  border-radius: 70px;
+  text-align: center;
+  width: 100%;
+  color: rgb(80, 11, 11);
+  margin-bottom: 10px;
+}
+
+.contenido-principal {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.columna-izquierda {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px; /* Espacio entre la columna izquierda y la derecha */
+}
+
+.imagen-izquierda {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin-bottom: 20px; /* Espacio entre la imagen y el resumen */
+}
+
+.informacion {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 50px;
+  width: 90%; /* Ajusta el ancho al 100% de la columna izquierda */
+}
+
+.columna-derecha {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.caracteristicas {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 50px;
+  margin-bottom: 20px; /* Espacio entre el resumen y la clasificacion */
+}
+
+.clasificacion {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .contenido-principal {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .columna-izquierda, .columna-derecha {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  
+}

@@ -1,0 +1,7 @@
+.ventana-perfil-usuario {
+  background-color: rgb(138, 138, 82);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%; 
+}
