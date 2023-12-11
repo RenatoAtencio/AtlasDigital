@@ -1,0 +1,35 @@
+/* SeccionInformacion.css */
+
+.seccion-informacion {
+  background-color: rgb(9, 93, 167);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box; /* Incluye el padding y el border en el ancho total */
+}
+
+.cuadrado-seccion-informacion {
+  flex: 1;
+  height: 300px;
+  width: 50%;
+  background-color: rgb(129, 129, 129);
+  border: 1px solid #ccc;
+  padding: 20px; /* Ajusta según sea necesario para el espacio interno */
+  margin: 10px; /* Ajusta según sea necesario para el espacio entre cuadrados */
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cuadrado-seccion-informacion:hover {
+  background-color: #979393;
+}
+
+/* Estilo del contenido de las publicaciones, solicitudes e informes */
+.publicacion,
+.solicitud,
+.informe {
+  margin-bottom: 10px; /* Ajusta según sea necesario */
+  height: 10%;
+}
