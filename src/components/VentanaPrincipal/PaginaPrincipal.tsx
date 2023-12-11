@@ -6,7 +6,7 @@ import SearchBar from './BarraBusqueda';
 import Login from '../VentanaLogin/Login';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faToolbox, faUser, faUserCircle } from '@fortawesome/free-solid-svg-icons';
-import '../../styles/PaginaPrincipal.css';
+import '../../styles/Pagina_Principal/PaginaPrincipal.css';
 
 const PaginaPrincipal: React.FC = () => {
   return (

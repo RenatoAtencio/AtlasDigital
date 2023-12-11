@@ -4,7 +4,7 @@ import Header from '../Header/Header';
 import CuadradosArriba from './CuadradosArriba';
 import SeccionInformacion from './SeccionInformacion';
 import { useNavigate } from 'react-router-dom';
-import '../../styles/VentanaPerfilUsuario.css';
+import '../../styles/Perfil_Usuario/VentanaPerfilUsuario.css';
 
 const VentanaPerfilUsuario: React.FC = () => {
   const navigate = useNavigate();

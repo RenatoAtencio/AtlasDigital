@@ -1,6 +1,6 @@
 // SearchBar.tsx
 import React from 'react';
-import '../../styles/BarraBusqueda.css';
+import '../../styles/Pagina_Principal/BarraBusqueda.css';
 
 interface SearchBarProps {
   label: string;

@@ -1,7 +1,7 @@
 // IngresoDocumentos.tsx
 import React from 'react';
 import Header from '../Header/Header'
-import '../../styles/IngresoDocumentos.css';
+import '../../styles/Ingreso_Documentos/IngresoDocumentos.css';
 
 const IngresoDocumentos: React.FC = () => {
   const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {

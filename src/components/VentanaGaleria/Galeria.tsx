@@ -1,7 +1,7 @@
 // Galeria.tsx
 import React from 'react';
 import Header from '../Header/Header'
-import '../../styles/Galeria.css';
+import '../../styles/Pagina_Galeria/Galeria.css';
 
 const Galeria: React.FC = () => {
   const handleImageUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
