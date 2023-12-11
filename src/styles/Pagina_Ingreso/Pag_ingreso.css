@@ -14,25 +14,20 @@ body {
     display: table-column;
     align-items: center;
     padding: 50px;
-<<<<<<< HEAD:src/styles/Pagina_Ingreso/Pag_ingreso.css
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 8px; 
-=======
-    background-color: rgb(14, 143, 42); /* Fondo blanco semi-transparente */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
     border-radius: 8px; /* Bordes redondeados */
->>>>>>> aaae452eba0fc23a3209bccf8ab8fa4d027689da:src/styles/Login.css
   }
   
   .login-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh; 
+    height: 100vh; /* Ocupa toda la altura del viewport */
   }
   
   form {
     width: 100%;
-    margin-top: 20px; 
+    margin-top: 20px; /* Espaciado superior */
   }
   
   label {

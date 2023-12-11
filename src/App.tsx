@@ -1,3 +1,4 @@
+// App.tsx
 import React from 'react';
 import Page_routes from './routes/Routes'
 

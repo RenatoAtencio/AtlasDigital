@@ -13,7 +13,6 @@ npm install react react-dom
 npm install react-router-dom@latest
 
 npm install --save @fortawesome/fontawesome-svg-core
-<<<<<<< HEAD
 
 npm install --save @fortawesome/free-solid-svg-icons
 

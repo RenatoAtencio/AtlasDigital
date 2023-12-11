@@ -1,7 +1,0 @@
-.ventana-perfil-usuario {
-  background-color: rgba(255, 255, 255, 0);
-  display: flex;
-  flex-direction: column;
-  height: 100vh; /* Establece la altura al 100% de la ventana */
-  width: 150vh; /* Establece el ancho al 100% de la ventana */
-}
