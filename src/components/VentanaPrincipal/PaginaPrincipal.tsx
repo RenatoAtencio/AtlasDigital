@@ -1,7 +1,7 @@
 // PaginaPrincipal.tsx
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
-import Header from '../Header';
+import Header from '../Header/Header';
 import SearchBar from './BarraBusqueda';
 import Login from '../VentanaLogin/Login';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

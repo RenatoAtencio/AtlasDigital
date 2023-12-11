@@ -1,6 +1,6 @@
 // VentanaPerfilUsuario.tsx
 import React from 'react';
-import Header from '../Header';
+import Header from '../Header/Header';
 import CuadradosArriba from './CuadradosArriba';
 import SeccionInformacion from './SeccionInformacion';
 import { useNavigate } from 'react-router-dom';

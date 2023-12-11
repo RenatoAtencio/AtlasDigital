@@ -1,7 +1,7 @@
 // Login.tsx
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Header from '../Header';
+import Header from '../Header/Header';
 import '../../styles/Login.css'; // Importa tu archivo de estilos CSS
 
 const Login: React.FC = () => {

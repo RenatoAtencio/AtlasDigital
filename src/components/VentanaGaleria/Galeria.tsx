@@ -1,6 +1,6 @@
 // Galeria.tsx
 import React from 'react';
-import Header from '../Header'
+import Header from '../Header/Header'
 import '../../styles/Galeria.css';
 
 const Galeria: React.FC = () => {
