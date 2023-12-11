@@ -1,12 +1,7 @@
 // CambiarPerfilUsuario.tsx
 import React, { useState } from 'react';
-<<<<<<<< HEAD:src/pages/Pag_Cambiar_Perfil.tsx
 import '../styles/Cambiar_Perfil_Usuario/CambiarPerfilUsuario.css'
-import Header from '../components/Header/Header'
-========
-import Header from '../Header'
-import '../../styles/CambiarPerfilUsuario.css'
->>>>>>>> aaae452eba0fc23a3209bccf8ab8fa4d027689da:src/components/VentanaCambiarPerfilUsuario/CambiarPerfilUsuario.tsx
+import Header from '../Header/Header'
 
 const CambiarPerfilUsuario = () => {
   const [userData, setUserData] = useState({
